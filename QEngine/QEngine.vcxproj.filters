@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\QPLFile">
+      <UniqueIdentifier>{2f776a44-912c-4a6d-a5c1-dccfd6989047}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\QPLFile">
+      <UniqueIdentifier>{2829392e-2599-470f-a825-a4a2925622c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\VM">
+      <UniqueIdentifier>{36937ab5-98b1-4069-9dfc-1a2e9a515f04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{2704d158-deb9-47ad-9d71-e75e9789d99c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{49b46155-7137-4a97-8ed2-73f3fbc8ab3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MachineInterface">
+      <UniqueIdentifier>{8a4fd43f-20df-4e5c-a2d2-0665dbc3412b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="exp.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="QPLFileHeader.cpp">
+      <Filter>Source Files\QPLFile</Filter>
+    </ClCompile>
+    <ClCompile Include="Member.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="QPLFile.cpp">
+      <Filter>Source Files\QPLFile</Filter>
+    </ClCompile>
+    <ClCompile Include="QPLFileSection.cpp">
+      <Filter>Source Files\QPLFile</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="QPLFileHeader.h">
+      <Filter>Header Files\QPLFile</Filter>
+    </ClInclude>
+    <ClInclude Include="QPLFileType.h">
+      <Filter>Header Files\QPLFile</Filter>
+    </ClInclude>
+    <ClInclude Include="EvaluationStack.h">
+      <Filter>Header Files\VM</Filter>
+    </ClInclude>
+    <ClInclude Include="ExecutionContext.h">
+      <Filter>Header Files\VM</Filter>
+    </ClInclude>
+    <ClInclude Include="InstructionStream.h">
+      <Filter>Header Files\VM</Filter>
+    </ClInclude>
+    <ClInclude Include="StackFrame.h">
+      <Filter>Header Files\VM</Filter>
+    </ClInclude>
+    <ClInclude Include="Type.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Member.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="MachineInterface.h">
+      <Filter>Header Files\MachineInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="QPL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="QPLFile.h">
+      <Filter>Header Files\QPLFile</Filter>
+    </ClInclude>
+    <ClInclude Include="QPLFileSection.h">
+      <Filter>Header Files\QPLFile</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,16 @@
+C:\Users\binya\source\repos\QEngine\QEngine.NET\bin\Debug\net5.0\QEngine.NET.exe
+C:\Users\binya\source\repos\QEngine\QEngine.NET\bin\Debug\net5.0\QEngine.NET.deps.json
+C:\Users\binya\source\repos\QEngine\QEngine.NET\bin\Debug\net5.0\QEngine.NET.runtimeconfig.json
+C:\Users\binya\source\repos\QEngine\QEngine.NET\bin\Debug\net5.0\QEngine.NET.runtimeconfig.dev.json
+C:\Users\binya\source\repos\QEngine\QEngine.NET\bin\Debug\net5.0\QEngine.NET.dll
+C:\Users\binya\source\repos\QEngine\QEngine.NET\bin\Debug\net5.0\ref\QEngine.NET.dll
+C:\Users\binya\source\repos\QEngine\QEngine.NET\bin\Debug\net5.0\QEngine.NET.pdb
+C:\Users\binya\source\repos\QEngine\QEngine.NET\obj\Debug\net5.0\QEngine.NET.csproj.AssemblyReference.cache
+C:\Users\binya\source\repos\QEngine\QEngine.NET\obj\Debug\net5.0\QEngine.NET.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\binya\source\repos\QEngine\QEngine.NET\obj\Debug\net5.0\QEngine.NET.AssemblyInfoInputs.cache
+C:\Users\binya\source\repos\QEngine\QEngine.NET\obj\Debug\net5.0\QEngine.NET.AssemblyInfo.cs
+C:\Users\binya\source\repos\QEngine\QEngine.NET\obj\Debug\net5.0\QEngine.NET.csproj.CoreCompileInputs.cache
+C:\Users\binya\source\repos\QEngine\QEngine.NET\obj\Debug\net5.0\QEngine.NET.dll
+C:\Users\binya\source\repos\QEngine\QEngine.NET\obj\Debug\net5.0\ref\QEngine.NET.dll
+C:\Users\binya\source\repos\QEngine\QEngine.NET\obj\Debug\net5.0\QEngine.NET.pdb
+C:\Users\binya\source\repos\QEngine\QEngine.NET\obj\Debug\net5.0\QEngine.NET.genruntimeconfig.cache

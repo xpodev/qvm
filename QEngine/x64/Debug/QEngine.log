@@ -1,0 +1,135 @@
+﻿  main.cpp
+C:\Users\binya\source\repos\QEngine\QEngine\main.cpp(56,2): warning C4309: 'initializing': truncation of constant value
+C:\Users\binya\source\repos\QEngine\QEngine\main.cpp(57,1): warning C4369: 'OpCodes::Exit':  enumerator value '-1' cannot be represented as 'unsigned char', value is '255'
+C:\Users\binya\source\repos\QEngine\QEngine\main.cpp(934,9): warning C4244: 'return': conversion from 'ssize_t' to 'int', possible loss of data
+C:\Users\binya\source\repos\QEngine\QEngine\main.cpp(400,30): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=size_t
+          ]
+C:\Users\binya\source\repos\QEngine\QEngine\main.cpp(399): message : while compiling class template member function 'bool qpl::DataHandlerBase<TypeIndex::RelativePointer,T>::remainder(ExecutionContext &,qpl::Data &,qpl::Data &)'
+          with
+          [
+              T=size_t
+          ]
+C:\Users\binya\source\repos\QEngine\QEngine\main.cpp(435): message : see reference to class template instantiation 'qpl::DataHandlerBase<TypeIndex::RelativePointer,T>' being compiled
+          with
+          [
+              T=size_t
+          ]
+C:\Users\binya\source\repos\QEngine\QEngine\main.cpp(446): message : see reference to class template instantiation 'qpl::DataHandler<TypeIndex::RelativePointer,T>' being compiled
+          with
+          [
+              T=size_t
+          ]
+C:\Users\binya\source\repos\QEngine\QEngine\main.cpp(462): message : see reference to function template instantiation 'void qpl::add_handler<TypeIndex::RelativePointer,size_t>(void)' being compiled
+C:\Users\binya\source\repos\QEngine\QEngine\main.cpp(400,30): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=int64_t
+          ]
+C:\Users\binya\source\repos\QEngine\QEngine\main.cpp(399): message : while compiling class template member function 'bool qpl::DataHandlerBase<TypeIndex::Int64,T>::remainder(ExecutionContext &,qpl::Data &,qpl::Data &)'
+          with
+          [
+              T=int64_t
+          ]
+C:\Users\binya\source\repos\QEngine\QEngine\main.cpp(435): message : see reference to class template instantiation 'qpl::DataHandlerBase<TypeIndex::Int64,T>' being compiled
+          with
+          [
+              T=int64_t
+          ]
+C:\Users\binya\source\repos\QEngine\QEngine\main.cpp(446): message : see reference to class template instantiation 'qpl::DataHandler<TypeIndex::Int64,T>' being compiled
+          with
+          [
+              T=int64_t
+          ]
+C:\Users\binya\source\repos\QEngine\QEngine\main.cpp(455): message : see reference to function template instantiation 'void qpl::add_handler<TypeIndex::Int64,int64_t>(void)' being compiled
+C:\Users\binya\source\repos\QEngine\QEngine\main.cpp(400,30): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\binya\source\repos\QEngine\QEngine\main.cpp(399): message : while compiling class template member function 'bool qpl::DataHandlerBase<TypeIndex::Int32,T>::remainder(ExecutionContext &,qpl::Data &,qpl::Data &)'
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\binya\source\repos\QEngine\QEngine\main.cpp(435): message : see reference to class template instantiation 'qpl::DataHandlerBase<TypeIndex::Int32,T>' being compiled
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\binya\source\repos\QEngine\QEngine\main.cpp(446): message : see reference to class template instantiation 'qpl::DataHandler<TypeIndex::Int32,T>' being compiled
+          with
+          [
+              T=int32_t
+          ]
+C:\Users\binya\source\repos\QEngine\QEngine\main.cpp(454): message : see reference to function template instantiation 'void qpl::add_handler<TypeIndex::Int32,int32_t>(void)' being compiled
+C:\Users\binya\source\repos\QEngine\QEngine\main.cpp(400,30): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=int16_t
+          ]
+C:\Users\binya\source\repos\QEngine\QEngine\main.cpp(399): message : while compiling class template member function 'bool qpl::DataHandlerBase<TypeIndex::Int16,T>::remainder(ExecutionContext &,qpl::Data &,qpl::Data &)'
+          with
+          [
+              T=int16_t
+          ]
+C:\Users\binya\source\repos\QEngine\QEngine\main.cpp(435): message : see reference to class template instantiation 'qpl::DataHandlerBase<TypeIndex::Int16,T>' being compiled
+          with
+          [
+              T=int16_t
+          ]
+C:\Users\binya\source\repos\QEngine\QEngine\main.cpp(446): message : see reference to class template instantiation 'qpl::DataHandler<TypeIndex::Int16,T>' being compiled
+          with
+          [
+              T=int16_t
+          ]
+C:\Users\binya\source\repos\QEngine\QEngine\main.cpp(453): message : see reference to function template instantiation 'void qpl::add_handler<TypeIndex::Int16,int16_t>(void)' being compiled
+C:\Users\binya\source\repos\QEngine\QEngine\main.cpp(400,30): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=int8_t
+          ]
+C:\Users\binya\source\repos\QEngine\QEngine\main.cpp(399): message : while compiling class template member function 'bool qpl::DataHandlerBase<TypeIndex::Int8,T>::remainder(ExecutionContext &,qpl::Data &,qpl::Data &)'
+          with
+          [
+              T=int8_t
+          ]
+C:\Users\binya\source\repos\QEngine\QEngine\main.cpp(435): message : see reference to class template instantiation 'qpl::DataHandlerBase<TypeIndex::Int8,T>' being compiled
+          with
+          [
+              T=int8_t
+          ]
+C:\Users\binya\source\repos\QEngine\QEngine\main.cpp(446): message : see reference to class template instantiation 'qpl::DataHandler<TypeIndex::Int8,T>' being compiled
+          with
+          [
+              T=int8_t
+          ]
+C:\Users\binya\source\repos\QEngine\QEngine\main.cpp(452): message : see reference to function template instantiation 'void qpl::add_handler<TypeIndex::Int8,int8_t>(void)' being compiled
+C:\Users\binya\source\repos\QEngine\QEngine\main.cpp(396,35): warning C4804: '/': unsafe use of type 'bool' in operation
+C:\Users\binya\source\repos\QEngine\QEngine\main.cpp(395): message : while compiling class template member function 'bool qpl::DataHandlerBase<TypeIndex::Bool,T>::divide(ExecutionContext &,qpl::Data &,qpl::Data &)'
+          with
+          [
+              T=bool_t
+          ]
+C:\Users\binya\source\repos\QEngine\QEngine\main.cpp(435): message : see reference to class template instantiation 'qpl::DataHandlerBase<TypeIndex::Bool,T>' being compiled
+          with
+          [
+              T=bool_t
+          ]
+C:\Users\binya\source\repos\QEngine\QEngine\main.cpp(446): message : see reference to class template instantiation 'qpl::DataHandler<TypeIndex::Bool,T>' being compiled
+          with
+          [
+              T=bool_t
+          ]
+C:\Users\binya\source\repos\QEngine\QEngine\main.cpp(450): message : see reference to function template instantiation 'void qpl::add_handler<TypeIndex::Bool,bool_t>(void)' being compiled
+C:\Users\binya\source\repos\QEngine\QEngine\main.cpp(289): warning C4715: 'qpl::Data::safe_cast<bool>': not all control paths return a value
+C:\Users\binya\source\repos\QEngine\QEngine\main.cpp(289): warning C4715: 'qpl::Data::safe_cast<unsigned __int64>': not all control paths return a value
+C:\Users\binya\source\repos\QEngine\QEngine\main.cpp(289): warning C4715: 'qpl::Data::safe_cast<signed char>': not all control paths return a value
+C:\Users\binya\source\repos\QEngine\QEngine\main.cpp(289): warning C4715: 'qpl::Data::safe_cast<short>': not all control paths return a value
+C:\Users\binya\source\repos\QEngine\QEngine\main.cpp(289): warning C4715: 'qpl::Data::safe_cast<int>': not all control paths return a value
+C:\Users\binya\source\repos\QEngine\QEngine\main.cpp(289): warning C4715: 'qpl::Data::safe_cast<double>': not all control paths return a value
+C:\Users\binya\source\repos\QEngine\QEngine\main.cpp(289): warning C4715: 'qpl::Data::safe_cast<__int64>': not all control paths return a value
+C:\Users\binya\source\repos\QEngine\QEngine\main.cpp(289): warning C4715: 'qpl::Data::safe_cast<float>': not all control paths return a value
+  QEngine.vcxproj -> C:\Users\binya\source\repos\QEngine\x64\Debug\QEngine.exe

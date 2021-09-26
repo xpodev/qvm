@@ -1,0 +1,100 @@
+VM Sections:
+code - readonly
+	contains the executable code of the program.
+
+data - readonly
+	contains static data.
+
+stack - read-write
+	the evaluation stack of the program. made of stack frames.
+
+
+
+stack frame - 
+	contains information about the current frame.
+
+	return address - 
+		the virtual address to return to when encountered with the 'ret' instruction. the return value is placed on the stack.
+
+	arguments - 
+		an array containing all the arguments passed to the function
+
+	locals -
+		the memory reserved for local variables.
+
+
+execution engine:
+	current instruction address (get/set) - 
+		the (relative to code base address) address of the current instruction to execute
+	current instruction: Instruction const& - 
+		the current instruction object
+	next (int amount = 1) - 
+		advance the instruction pointer by amount
+
+
+important instructions:
+call [function] -> new stack frame
+call safe [function] [not safe address] -> new stack frame
+jump [address]
+jump relative [relative address]
+push [size_t value/location: argument | local] -> stack grow 1
+pop [location: argument | local] -> stack shrink 1
+set [location: argument | local] [size_t value/location: argument | local]
+cmp equals/greater than/greater or equal/lower than/lower or equal/not equal -> stack shrink 2, stack grow 1
+jump if [true | false]
+
+
+simple instruction stream:
+1 byte opcode
+
+execute (op will automatically extract data from stream)
+
+
+Instruction object:
+opType (3 bits): OperationType (enum)
+flags (4 bits): int (which can be templated to be converted to an enum)
+isShort (1 bit): bool
+argumentsSize: size_t
+
+
+for jump, short means if the address is 1 byte or as defined as part of the current method
+for call, short means that the call is safe and that the relative address to go to if the call fails is supplied afterwards (always 1 byte)
+for stack resize, short means if the operand is the flags define an address or flags. if they are flags, they define the type of the operand (argument/local/pointer/value)
+
+
+call requires 1 byte for op (conditional = 4 bits), size_t bytes for target and optional (size_t/1) bytes for not_safe_address (abs/rel)
+jump requires 1 byte for op (conditional = 4 bits), (size_t/1) bytes for target (abs/rel)
+stack resize requires 1 byte for op (1 bit for type (inc/dec), 1 bit for opType (index/value), 1 bit for ((arg/loc)/(value/heap)), 1 bit for short?) and (size_t/(1 if short else stack.frame.method.stackAccess)) for operand
+copy requires 1 byte for op (1 bit for dstSize (index/value), 1 bit for dstType ((arg/loc)/(value/heap))
+
+instruction spec:
+jump (flags, address) (short form is relative, long form is absolute)
+stack resize (size, loc/data)
+copy (loc dst, loc/data src)
+op (flags, loc?, loc?)
+
+
+vm constants:
+integers
+floating point numbers
+booleans
+null
+
+
+code execution
+reading assemblies
+program entry point
+reflection (?)
+evaluation stack
+control flow
+alu
+instruction set
+importing external files (assemblies)
+
+
+assemblies should be able to export:
+functions (name, return type, parameters)
+constant values (type, name, value)
+data types (base type, name, members [fields, methods, properties])
+
+
